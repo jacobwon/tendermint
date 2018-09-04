@@ -40,3 +40,4 @@ IMPROVEMENTS:
 BUG FIXES:
 - [mempool] No longer possible to fill up linked list without getting caching
   benefits [#2180](https://github.com/tendermint/tendermint/issues/2180)
+- [rpc] /dial_peers does not try to dial existing peers
